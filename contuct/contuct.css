@@ -1,0 +1,35 @@
+@import url(../header.css);
+@import url(../footer.css);
+.contuct-div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 149px;
+  /* border: 1px solid; */
+}
+.container h2{
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 64px;
+  padding: 50px 0;
+}
+.contuct-div div{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  /* border: 1px solid; */
+}
+.contuct-div div h4{
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 24px;
+}
+.contuct-div div p{
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 18px;
+}
+.tel{
+  padding-bottom:30px ;
+}

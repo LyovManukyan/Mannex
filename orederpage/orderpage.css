@@ -1,0 +1,114 @@
+@import url(../header.css);
+@import url(../footer.css);
+.container h2{
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 64px;
+  padding: 50px 0 12px 0;
+}
+table{
+  border: 1px solid #A6A6A6;
+  width: 100%;
+  border-collapse: collapse;
+}
+th,tr,td {
+  /* border: 1px solid; */
+  padding: 5px 0;
+}
+.tr, .first-tr{
+  border-bottom:1px solid #A6A6A6 ;
+}
+.th{
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 24px;
+}
+.small-imp{
+  background-image: url(../images/searchimg.png);
+  background-repeat: no-repeat;
+  background-position-y:center ;
+  background-position-x:70px ;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #434242
+}
+select{
+  width: 80px;
+  height: 30px;
+  appearance: none;
+  background-image: url(../images/Vector1.png);
+  background-repeat: no-repeat;
+  background-position-y:center ;
+  background-position-x:50px ;
+  border: 1px solid #434242
+}
+.big-imp{
+  background-image: url(../images/searchimg.png);
+  background-repeat: no-repeat;
+  background-position-y:center ;
+  background-position-x:120px ;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #434242
+}
+.tr td{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 18px;
+}
+.tr td a{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FF5454;
+}
+.first-tr td div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 25px;
+}
+.arrow-up{
+  color: #48D399;
+}
+.arrow-down{
+  color: #FF5454;
+}
+.first-td{
+  text-align: center;
+}
+.tr td button{
+  width: 80px;
+  height: 30px;
+  background: #FF5454;
+  color: white;
+  border: none;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 12px;
+}
+table tr:nth-child(2n+3){
+  background: #EEEEEE;
+}
+.pages{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 24px;
+  gap: 20px;
+  padding: 28px 0 42px 0;
+}
+.pages button{
+  padding: 5px 10px;
+  font-size: 24px;
+  border: none;
+  background: none;
+}
+.pages button:hover{
+  width: fit-content;
+  height: fit-content;
+  background: #4BA9FF;
+}

@@ -1,0 +1,71 @@
+@import url(../header.css);
+@import url(../footer.css);
+.sect h2{
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 64px;
+  padding-top: 50px;
+}
+.info_input_changes{
+  width: 265px;
+  height: 63px;
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid rgba(67, 66, 66, 0.5);
+  text-indent: 40px;
+}
+.sect-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 49px 0;
+  padding-top: 109px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+form div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+.sect-div3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 105px;
+}
+.change{
+  width: 265px;
+  height: 63px;
+  background: #4BA9FF;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin: auto;
+  position: relative;
+  left: -20px;
+}
+.sect-div3 p{
+  padding-top: 31px;
+}
+.sect-div3 a{
+  text-decoration: none;
+  color: #FF8181;
+  text-transform: lowercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 117px;
+}
+.sect-div3 p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}

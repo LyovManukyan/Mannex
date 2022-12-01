@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./registerpage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section class="container">
+        <nav class="header">
+          <img class="logo" src="../images/Лого.png" alt="" />
+          <div class="hamburger">
+            <div class="hamburger-items burger-itm1"></div>
+            <div class="hamburger-items burger-itm2"></div>
+            <div class="hamburger-items burger-itm3"></div>
+          </div>
+          <ul class="menu">
+            <li><a href="../index.html">Главная</a> </li>
+            <li><a href="">Pro-Запрос</a> </li>
+            <li><a href="../garaje/garaje.html">Гараж</a> </li>
+            <li><a href="../contuct/contuct.html">Контакты</a> </li>
+            <li><a href="../orederpage/orderpage.html">Заказы</a> </li>
+          </ul>
+          <div class="nav-2 menu2div">
+          <ul class="menu2">
+            <li class="menu2-li">
+              <a href=""><img src="../images/Корзина.png" alt=""></a>
+            </li>
+            <li class="login">
+              <a class="loginimg" href="../registerpage/registerpage.html">
+                <i class="fa-solid fa-user"></i>
+              </a>
+              <a class="enter" href="../loginPage/loginpage.html">Войти</a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+        <div class="search">
+          <input id="search" type="text" placeholder="Поиск по артикулу" />
+          <button>Поиск</button>
+        </div>
+      </section>
+    </header>
+  <main>
+    <section class="container sect">
+      <h2>Страница регистрации личного кабинета</h2>
+      <div class="sect-div">
+        <div class="sect-div1">
+          <form action="#" name="formRegistor">
+            <div>
+              <input class="border-color"  type="email" placeholder="E-mail" required>
+              <span></span>
+            </div>
+            <div>
+              <input class="border-color"  type="password" placeholder="Пароль" required>
+              <span></span>
+            </div>
+            <div>
+              <input class="border-color"  type="password" placeholder="Повтор пароля" required>
+              <span></span>
+            </div>
+            <div>
+              <input class="border-color"  type="text" placeholder="Фамилия" required>
+              <span></span>
+            </div>
+            <div>
+              <input class="border-color"  type="text" placeholder="Имя" required>
+              <span></span>
+            </div>
+            <div>
+              <input class="border-color"  type="text" placeholder="Отчество" required>
+              <span></span>
+            </div>
+              <button>Зарегистрироваться </button>
+        </form>
+        </div>
+      </div>
+      <div class="sect-div3">
+        <p>Нажимая кнопку “Зарегистрироваться” вы примимаете нашу</p>
+        <a href="">политику конфиденциальности</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="footer container">
+      <div class="foot-grid">
+        <div class="foot-grid-items1">
+          <img class="foot-logo" src="../images/Лого.png" alt="" />
+          <p>
+            2020 © Mannex Все права защищены <br> <br>
+            Публичная оферта
+          </p>
+        </div>
+        <div class="foot-grid-items2">
+          <h3>Основное</h3>
+          <ul>
+            <li><a href="">Главная</a></li>
+            <li><a href="">О компании</a></li>
+            <li><a href="">Pro-Запрос</a></li>
+            <li><a href="">Гараж</a></li>
+            <li><a href="">Контакты</a></li>
+            <li><a href="">Заказы</a></li>
+          </ul>
+        </div>
+        <div class="foot-grid-items3">
+          <h3>Аккаунт</h3>
+          <ul>
+            <li><a href="">Корзина</a></li>
+            <li><a href="">Баланс</a></li>
+            <li><a href="">Мои заказы</a></li>
+            <li><a href="">Запрос продавцу</a></li>
+            <li><a href="">Сравнение</a></li>
+          </ul>
+        </div>
+        <div class="foot-grid-items4">
+          <h3>Контакты</h3>
+            <p>Главная</p>
+            <a href="">8 900 203 8083 </a> <br>
+            <a href="">8 912 294 5345 </a>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="./register.js"></script>
+  <script src="../header.js"></script>
+  <script>
+    let sing=document.querySelector('.enter');
+    sing.innerText=JSON.parse(localStorage.getItem('value')).firstName|| 'Войти'
+</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+@import url(../header.css);
+@import url(../footer.css);
+.sect h2{
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 64px;
+  padding-top: 50px;
+}
+.sect form div input{
+  width: 25%;
+  height: 63px;
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 18px;
+  text-indent: 40px;
+}
+.border-color{
+  border: 1px solid rgba(67, 66, 66, 0.5);
+}
+.sect-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 49px 0;
+  padding-top: 109px;
+}
+.sect-div div{
+  display: flex;
+  justify-content: center;
+  gap: 0 38px;
+}
+.sect-div1 form{
+  display: flex;
+  flex-wrap: wrap;
+  gap:50px 100px ;
+  justify-content: center;
+}
+.sect-div1 form button{
+  width: 265px;
+  height: 63px;
+  background: #4BA9FF;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+.sect-div3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 25px;
+}
+.sect-div3 p{
+  padding-top: 31px;
+}
+.sect-div3 a{
+  text-decoration: none;
+  color: #FF8181;
+  text-transform: lowercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 117px;
+}
+.sect-div3 p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+.sect-div1 form div input{
+  width: 100%;
+  /* border: 5px solid blue; */
+}
+
+.sect-div1 form div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 25%;
+}
+.sect-div1 form div span{
+  position: absolute;
+  top: 70px;
+  background-color: red;
+  width: auto;
+  color: white;
+  text-align: center;
+  align-self: center;
+}
+.success{
+  border: solid green;
+ 
+}
+.error{
+  border:2px solid red;
+  /* background-color: green; */
+}

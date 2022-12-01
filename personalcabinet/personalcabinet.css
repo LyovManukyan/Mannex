@@ -1,0 +1,36 @@
+@import url(../header.css);
+@import url(../footer.css);
+.sect1-div{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.sect1 h2{
+  padding: 50px 0;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 64px;
+}
+.sect1-div div{
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 24px;
+  padding-bottom: 70px;
+}
+.change{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+.change button{
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 20px;
+  width: 265px;
+  height: 63.83px;
+  background: #4BA9FF;
+  color: white;
+}
+.h4{
+  padding-bottom: 30px;
+}

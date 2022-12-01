@@ -1,0 +1,247 @@
+@font-face {
+  font-family:'Gilroy' ;
+  src: url(./Gilroy-fonts/fonts/Gilroy-Medium-500.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 75%;
+  margin: auto;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 0 0;
+}
+.menu, .menu2{
+  list-style-type: none;
+}
+.menu, .menu2{
+  display: flex;
+  gap: 50px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.menu2{
+  display: flex;
+  gap: 50px;
+}
+.menu2 a{
+  text-decoration: none;
+  color: black;
+}
+.menu li, .menu2 li{
+  display: inline-block;
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+.menu a:hover{
+  width: fit-content;
+  height: fit-content;
+  background: #4BA9FF;
+}
+.menu2-li{
+  display: flex;
+  flex-direction: row;
+}
+.search{
+  display: flex;
+  justify-content: center;
+  padding: 49px 0 0 0;
+  text-align: center;
+}
+.search-inp{
+  width: 523px;
+  height: 50px;
+  padding-left: 40px;
+}
+.search-btn{
+  padding: 14px 50px 14px 50px;
+  background: #4BA9FF;
+  border: none;
+  text-align: center;
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+.login{
+  width: 184px;
+}
+.loginimg{
+  padding:10px 26px;
+  text-align: center;
+  border: 1px solid #4BA9FF;
+}
+.loginimg i{
+  color: #4BA9FF;
+  font-size: 20px;
+}
+.enter{
+  padding: 11px 25px;
+  background: #4BA9FF;
+}
+.login .enter{
+  color: white;
+}
+/*////////////////////////////////////////Burger menu//////////////////////*/
+.hamburger{
+  /* background-color: red; */
+  display: none;
+}
+.hamburger-items{
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  border-radius: 50px 50px 50px 50px;
+}
+@media screen and (max-width:1700px) and (min-width:1340px) {
+  .menu, .menu2{
+    gap: 10px;
+  }
+  .menu a{
+    font-size: 14px;
+  }
+  .menu2-li a img
+  {
+    width: 70%;
+  }
+  .loginimg{
+    width: 50%;
+    padding:5px 10px 5px 14px;
+  }
+  .enter{
+    padding: 6px 12px;
+    background: #4BA9FF;
+  }
+  .loginimg i{
+    font-size: 15px;
+  }
+  .login .enter{
+    font-size: 15px;
+  }
+  .search-btn{
+    width: 10%;
+  }
+  .search-inp{
+    width: 50%;  
+    padding-left: 10px;
+    text-indent: 30px;
+  }
+}
+@media screen and (max-width:1339px) and (min-width:1024px) {
+  .menu, .nav-2{
+    display: none;
+  }
+  /*////////////////////////////////////Burger Menu /////////////////////////*/
+header{
+  display: flex;
+  flex-direction: row;
+}
+  .header{
+  display: flex;
+  justify-content: space-between;
+}
+.hamburger{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+.menu-block{
+  animation: menu;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-timing-function: inherit;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 1px 1px;
+  position: absolute;
+  padding-top: 20px;
+  left: 20%;
+  top: 145px;
+  padding: 0 10px;
+}
+.menu2new{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left:60%;
+  top: 150px;
+}
+.login{
+  width: fit-content;
+  text-align: center;
+  margin-top: -10px;
+}
+.loginimg{
+  width: 50px;
+  padding: 5px 20px 4px 20px ;
+}
+.login a{
+  width: 10px;
+}
+.loginimg i{
+  font-size: 15px;
+}
+.enter{
+  font-size: 10px;
+  padding:9px 20px  7px 20px;
+}
+.menu2-li a img{
+  width: 100px;
+}
+.menu2ul{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger-item1{
+display: none;
+}
+.hamburger-item2{
+position: relative;
+bottom: 25px;
+transform: rotate(45deg);
+transition: 0.5s;
+}
+.hamburger-item3{
+transform: rotate(-45deg);
+transition: 0.5s;
+}
+.search{
+  display: none;
+}
+.search-show{
+  display: flex;
+  position: absolute;
+  left: 27%;
+  top: 145px;
+}
+.search-btn1{
+  font-size: 15px;
+  width: 10%;
+  padding: 10px 60px 10px 15px;
+}
+.search-inp1{
+  width: 400px;
+  height: 40px;
+  text-indent: 30px;
+}
+
+
+}

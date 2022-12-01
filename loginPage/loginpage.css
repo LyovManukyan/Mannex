@@ -1,0 +1,66 @@
+@import url(../header.css);
+@import url(../footer.css);
+.firts-div h2{
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 64px;
+  color: #434242;
+  padding-top: 50px;
+}
+.firts-div p{
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 18px;
+  padding:15px 0 73px 0;
+}
+.second-div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 31px 0;
+  padding-bottom: 45px;
+}
+.second-div input{
+  width: 265px;
+  height: 63px;
+  border: 1px solid rgba(67, 66, 66, 0.5);
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 18px;
+  text-indent: 30px;
+}
+.second-div form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.third-div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.second-div button{
+  width: 265px;
+  height: 63px;
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-size: 20px;
+  background: #4BA9FF;
+  color: white;
+}
+.third-div p{
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 23px;
+}
+.third-div a{
+  text-decoration: none;
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 15px;
+  color: #48D399;
+  padding-bottom: 142px;
+}
