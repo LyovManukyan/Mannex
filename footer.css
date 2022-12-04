@@ -89,3 +89,43 @@ footer{
     font-size: 14px;
   }
 }
+@media screen and (max-width:1024px) and (min-width:700px) {
+  .foot-grid{
+    padding: 120px 0 100px 0;
+    gap: 0 15px;
+  }
+  .foot-logo{
+    width: 90%;
+    font-size: 20px;
+  }
+  .foot-grid h3{
+    font-size: 20px;
+  }
+  .foot-grid a{
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width:700px) and (min-width:375px) {
+  .foot-grid{
+    padding: 80px 0 60px 0;
+    gap: 0 20px;
+  }
+  .foot-logo{
+    width: 120%;
+    font-size: 10px;
+  }
+  .foot-grid-items1 p{
+    font-size: 10px;
+  }
+  .foot-grid h3{
+    font-size: 15px;
+  }
+  .foot-grid a{
+    font-size: 10px;
+  }
+  .foot-grid-items4 p{
+    font-size: 10px;
+  }
+}

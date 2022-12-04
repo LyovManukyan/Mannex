@@ -31,6 +31,9 @@
  height: 100px;
  align-items: center;
 }
+.sect1-div1-1 button{
+  color: white;
+}
 .sect1-p2-div{
   background: linear-gradient(180deg, #FF5454 0%, #CD4848 100%);
   box-shadow: 0px 20px 50px rgba(255, 129, 129, 0.3);
@@ -275,7 +278,7 @@
   grid-area: item5;
   display: flex;
   flex-wrap: wrap;
-  gap: 32px 102px;
+  gap: 32px 12%;
   align-items: flex-start;
   /* border: 1px solid coral; */
   justify-content:flex-start;
@@ -304,6 +307,9 @@
   font-weight: 400;
   font-size: 18px;
   padding-bottom: 34px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .for-whell{
   display: flex;

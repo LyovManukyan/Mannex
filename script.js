@@ -83,7 +83,7 @@ prev1.addEventListener("click",()=>{
   prev1.style.background = "#4BA9FF"
 })
 
-const countItemsPerPage =window.innerWidth > 1440 ? 6 : window.innerWidth > 1024 ? 4 : 2; 
+const countItemsPerPage =window.innerWidth > 1440 ? 6 :  4; 
 const parent = document.querySelector(".cards");
 const pageCount = document.querySelector(".page");
 const loadAnimation = document.querySelector('.loader')

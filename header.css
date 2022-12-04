@@ -64,6 +64,7 @@
   width: 523px;
   height: 50px;
   padding-left: 40px;
+  border: 1px solid grey;
 }
 .search-btn{
   padding: 14px 50px 14px 50px;
@@ -132,6 +133,7 @@
   }
   .search-btn{
     width: 10%;
+  padding: 14px 5px 12px 5px;
   }
   .search-inp{
     width: 50%;  
@@ -223,9 +225,9 @@ transition: 0.5s;
 transform: rotate(-45deg);
 transition: 0.5s;
 }
-.search{
+/* .search{
   display: none;
-}
+} */
 .search-show{
   display: flex;
   position: absolute;
@@ -244,4 +246,250 @@ transition: 0.5s;
 }
 
 
+}
+
+
+@media screen and (max-width:1024px) and (min-width:700px) {
+  .menu, .nav-2{
+    display: none;
+  }
+  /*////////////////////////////////////Burger Menu /////////////////////////*/
+header{
+  display: flex;
+  flex-direction: row;
+}
+  .header{
+  display: flex;
+  justify-content: space-between;
+}
+.hamburger{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+.menu-block{
+  width: 45%;
+  animation: menu;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-timing-function: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 1px 1px;
+  position: absolute;
+  padding-top: 20px;
+  left: 7%;
+  top: 145px;
+  padding: 0 10px;
+}
+.menu-block li a{
+  font-size: 15px;
+}
+.menu2new{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left:50%;
+  top: 150px;
+}
+.login{
+  width: fit-content;
+  text-align: center;
+  margin-top: -10px;
+}
+.loginimg{
+  width: 50px;
+  padding: 1px 20px 4px 20px ;
+}
+.login a{
+  width: 10px;
+}
+.loginimg i{
+  font-size: 15px;
+}
+.enter{
+  font-size: 10px;
+  padding:9px 20px  7px 20px;
+}
+.menu2-li a img{
+  width: 100px;
+}
+.menu2ul{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger-item1{
+display: none;
+}
+.hamburger-item2{
+position: relative;
+bottom: 25px;
+transform: rotate(45deg);
+transition: 0.5s;
+}
+.hamburger-item3{
+transform: rotate(-45deg);
+transition: 0.5s;
+}
+/* .search{
+  display: none;
+} */
+.search-show{
+  display: flex;
+  position: absolute;
+  left: 12%;
+  top: 200px;
+}
+.search-btn1{
+  font-size: 15px;
+  width: 10%;
+  padding: 10px 60px 10px 15px;
+}
+.search-inp1{
+  width: 400px;
+  height: 40px;
+  text-indent: 30px;
+}
+.padding-bottom{
+  padding-bottom: 80px;
+}
+}
+
+
+
+@media screen and (max-width:700px) and (min-width:375px) {
+  .menu, .nav-2{
+    display: none;
+  }
+  /*////////////////////////////////////Burger Menu /////////////////////////*/
+header{
+  display: flex;
+  flex-direction: row;
+}
+  .header{
+  display: flex;
+  justify-content: space-between;
+}
+.hamburger{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+.menu-block{
+  width: 100%;
+  animation: menu;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-timing-function: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 1px 1px;
+  position: absolute;
+  padding-top: 20px;
+  left: 0;
+  top: 110px;
+  padding: 0 10px;
+}
+.menu-block li a{
+  font-size: 10px;
+}
+.menu2new{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  left:0;
+  top: 150px;
+}
+.login{
+  width: fit-content;
+  text-align: center;
+  margin-top: -10px;
+  width: auto;
+}
+.loginimg{
+  width: 50px;
+  padding: 1px 15px 2px 15px ;
+}
+.login a{
+  width: 10px;
+}
+.loginimg i{
+  font-size: 13px;
+}
+.enter{
+  font-size: 10px;
+  padding:9px 20px  5px 20px;
+}
+.menu2-li a img{
+  width: 100px;
+}
+.menu2ul{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger-item1{
+display: none;
+}
+.hamburger-item2{
+position: relative;
+bottom: 25px;
+transform: rotate(45deg);
+transition: 0.5s;
+}
+.hamburger-item3{
+transform: rotate(-45deg);
+transition: 0.5s;
+}
+/* .search{
+  display: none;
+} */
+.search-show{
+  display: flex;
+  position: absolute;
+  left: 7%;
+  top: 150px;
+}
+.search-btn1{
+  font-size: 15px;
+  width: 10%;
+  padding: 10px 60px 10px 15px;
+}
+.search-inp1{
+  text-indent: 30px;
+}
+.padding-bottom{
+  padding-bottom: 120px;
+}
+.search-inp1{
+  width: 200px;
+  height: 40px;
+  padding-left: 0;
+}
+.search-btn{
+  padding:10px 15px 10px 15px;
+  font-size: 12px;
+}
+.search-btn1{
+  padding:10px 60px 10px 25px;
+  font-size: 12px;
+}
+.logo{
+  width: 50%;
+}
 }
